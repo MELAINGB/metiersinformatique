@@ -1,0 +1,134 @@
+a:hover{
+	color: white;
+}
+h1{
+	text-align: center;
+}
+.box{
+	border: solid;
+	padding: 10px;
+	background-color:chocolate;
+	font-size: 2vw;
+	border-radius:20px;
+}
+.box1{
+	border: solid;
+	margin: 100px;
+	border-radius: 15px;
+	background-color: orange;
+	font-size: 2vw;
+}
+.tof1 {
+	width: 500px;
+	height: 200px;	
+}
+header nav ul{
+	list-style: none;
+	padding: 0px;
+}
+Hea
+header nav ul li{
+	width: 200px;
+	height: 50px;
+	background-color:grey;
+	margin:0px;
+	padding: 0px;
+	float:left;
+	line-height:40px;
+}
+header nav li a{
+	display: block;
+}
+header nav li a:hover{
+	background-color: grey;
+	opacity: 0.5;
+}
+header nav ul li ul li{
+	display: none;
+}
+header nav ul li:hover ul li{
+	display: block;
+}
+header{
+
+	background-image: url(daplan.png);
+	background-size: 1300px;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	
+}
+.recherche{
+	border: solid;
+	height: 25px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+
+.st{
+	text-align: center;
+	color: blue;
+	background-color: chocolate;
+	border-radius: 30%;
+	height: 50px;
+}
+.li{
+	border: solid;
+	border-radius: 0px;
+	background-color: grey;
+}
+.menu{
+	border: solid;
+	border-radius: 20px;
+}	
+.btn{
+	width: 50px;
+	height: 50px;
+	border-radius: 	50%;
+	display: flex; 
+	justify-content: center;
+	background: crimson;
+	align-items: center;
+	position: fixed;
+	right: 20px;
+	bottom: 20px;
+	cursor: pointer;
+}
+.ht{
+	background-color: white;
+	border-radius: 25px;
+}
+footer{
+	background-image: url(db.png);
+	background-repeat: no-repeat;
+	background-size: 1300px;
+}
+.ft{
+	background-color: grey;
+	text-align: center;
+}
+.sms{
+	width: 25px;
+	height:20px;
+	letter-spacing: 10px;
+}
+.ani{
+	text-align: center;
+
+}
+
+
+.plan{
+	height: 100px;
+	width: 100px;
+	transition: 1s;
+	border-radius: 20%;
+	animation: laby  8s  ;
+	
+}
+@keyframes laby {
+	0%{
+		translate:500px;}
+.plan:hover{ 
+	scale: 2;
+	animation-play-state: paused;}
